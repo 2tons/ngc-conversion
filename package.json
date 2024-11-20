@@ -1,0 +1,38 @@
+{
+  "name": "ngc-to-2tonnes",
+  "version": "1.0.0",
+  "description": "Convert Nos Gestes Climat data format to 2tonnes format",
+  "main": "convertTo2Tonnes.mjs",
+  "type": "module",
+  "exports": {
+    ".": "./convertTo2Tonnes.mjs"
+  },
+  "files": [
+    "convertTo2Tonnes.mjs",
+    "2Tonnes/*.yaml",
+    "2Tonnes/*.publicodes"
+  ],
+  "scripts": {
+    "convert-personas": "node convertPersonasTo2Tonnes.mjs"
+  },
+  "dependencies": {
+    "publicodes": "^1.0.0",
+    "@incubateur-ademe/nosgestesclimat-scripts": "^0.0.1"
+  },
+  "keywords": [
+    "carbon-footprint",
+    "nosgestesclimat",
+    "2tonnes",
+    "conversion"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/ngc-to-2tonnes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/ngc-to-2tonnes/issues"
+  },
+  "homepage": "https://github.com/yourusername/ngc-to-2tonnes#readme"
+}
