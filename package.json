@@ -16,8 +16,7 @@
     "convert-personas": "node convertPersonasTo2Tonnes.mjs"
   },
   "dependencies": {
-    "publicodes": "^1.0.0",
-    "@incubateur-ademe/nosgestesclimat-scripts": "^0.0.1"
+    "publicodes": "^1.0.0"
   },
   "keywords": [
     "carbon-footprint",
