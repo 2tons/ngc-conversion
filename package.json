@@ -16,6 +16,9 @@
     "convert-personas": "node convertPersonasTo2Tonnes.mjs"
   },
   "dependencies": {
+    "@incubateur-ademe/nosgestesclimat": "^3.3.4",
+    "@incubateur-ademe/nosgestesclimat-scripts": "^0.6.0",
+    "prettier": "^3.3.3",
     "publicodes": "^1.0.0"
   },
   "keywords": [

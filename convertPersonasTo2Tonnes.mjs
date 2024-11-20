@@ -1,4 +1,4 @@
-import personas from '../../public/personas-fr.json' assert { type: 'json' }
+import personas from '@incubateur-ademe/nosgestesclimat/public/personas-fr.json' assert { type: 'json' }
 import convertTo2Tonnes from './convertTo2Tonnes.mjs'
 import path from 'path'
 import fs from 'fs'
